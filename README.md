@@ -24,7 +24,9 @@
 ```
 rsync -av --delete --exclude '.*' /home /tmp/backup
 ```
+
 Результат
+
 ![1-1_commandrsync.png](https://github.com/Zikin18/SYS-25_10.03/blob/master/1-1_commandrsync.png)
 
 
@@ -50,4 +52,5 @@ rsync -av --delete --exclude '.*' /home /tmp/backup >> /var/log/crontab.log
 проверка крипта и отображение результатов работы
 
 `tail /var/log/crontab.log`
+
 ![2-2_log_result.png](https://github.com/Zikin18/SYS-25_10.03/blob/master/2-2_log_result.png)
