@@ -50,7 +50,7 @@ rsync -av --delete --exclude '.*' /home /tmp/backup >> /var/log/crontab.log
 
 ![2-1_crontab.png](https://github.com/Zikin18/SYS-25_10.03/blob/master/2-1_crontab.png)
 
-проверка крипта и отображение результатов работы
+Проверка скрипта и отображение результатов работы
 
 `tail /var/log/crontab.log`
 
